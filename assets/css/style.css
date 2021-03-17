@@ -1,7 +1,7 @@
 .debug [class*="col-"] {
-	background-color: lightpink;
-  border: 1px solid magenta;
-  line-height: 50px;
+/* 	background-color: lightpink;
+  border: 1px solid magenta; */
+  
 }
 
 [class*="col-"]{
@@ -9,6 +9,24 @@
 }
 
 img{
-  height: 150px;
-  width: 150px;
+  height: 250px;
+  width: 250px;
+  border-radius: 10px;
+  border-bottom: 15px;
+}
+
+.row.eb-navbar{
+  background-color: rgb(44, 62, 80);
+  color: white;
+}
+
+.row.eb-jumbotron,
+.container.eb-about{
+  background-color: rgb(26, 188, 156);
+  color: white;
+}
+
+.row.eb-footer{
+  background-color: rgb(58, 84, 109);
+  color: white;
 }
