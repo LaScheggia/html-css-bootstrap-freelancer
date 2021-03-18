@@ -1,7 +1,33 @@
+.eb-bg-green{
+  background-color: rgb(26, 188, 156);
+  color: white;
+}
+
+.eb-pad-80{
+  padding: 80px 0;
+}
+
+.eb-header-top{
+  background-color: rgb(58, 84, 109);
+  height: 80px;
+  color: white;
+}
+
+.eb-jumbotron{
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
+  width: 300px;
+}
+
+.eb-wrp-60{
+  width: 60%;
+  margin: 0 auto;
+}
+
 
 img{
-  height: 250px;
-  width: 250px;
+  width: 350px;
   border-radius: 10px;
   border-bottom: 15px;
 }
@@ -11,14 +37,8 @@ img{
   color: white;
 }
 
-.container-fluid.eb-jumbotron,
-.container-fluid.eb-about{
-  background-color: rgb(26, 188, 156);
-  color: white;
-}
-
-.row.eb-footer{
-  background-color: rgb(58, 84, 109);
+footer{
+  background-color: rgb(44, 62, 80);
   color: white;
 }
 
