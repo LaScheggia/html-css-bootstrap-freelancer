@@ -45,9 +45,27 @@ h6{
 }
 
 .satan{
-  display: inline-block;
+  line-height: 50px;
+  height: 50px;
 }
 
+.satan > hr, .satan > span{
+  display: inline-block;
+  width: 50px;
+  vertical-align: middle;
+}
+
+hr{
+  border-width: 3px;
+}
+
+.satan.blue hr{
+  color: black;
+}
+
+.satan > span{
+  font-weight: bold;
+}
 
 .namelogo{
   text-transform: uppercase;
@@ -82,6 +100,9 @@ img{
   color: white;
 }
 
+.eb-but span{
+  margin-right: 10px;
+}
 
 .btn-success {
   color: white;
@@ -102,12 +123,28 @@ footer{
   margin-bottom: 15px;
 }
 
+.row.eb-footer{
+  padding-top: 15px;
+}
 
 .eb-fot-bot{
   padding-top: 15px;
   font-size: 12px;
 }
 
+.eb-footer i{
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  color: white;
+  border: 1ps solid white;
+}
+
+.eb-footer ul li {
+  color: white;
+  padding-right: 15px;
+}
 
 .color-ch{
   color: aquamarine;
