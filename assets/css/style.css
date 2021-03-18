@@ -4,13 +4,44 @@
 }
 
 .eb-pad-80{
-  padding: 80px 0;
+  padding: 0 80px;
 }
 
 .eb-header-top{
   background-color: rgb(58, 84, 109);
-  height: 80px;
+  height: 50px;
+  line-height: 50px;
+  vertical-align: middle;
   color: white;
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+  width: 100%;
+}
+
+.eb-header-bottom{
+  margin-top: 50px
+}
+
+ul li{
+  display: inline-block;
+  font-style: none;
+}
+
+ul li a{
+  color: white;
+  text-transform: uppercase;
+  padding-right: 15px;
+}
+
+ul li a:hover{
+  color: rgb(26, 188, 156);
+  text-transform: uppercase;
+}
+
+.namelogo{
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 .eb-jumbotron{
@@ -20,6 +51,11 @@
   width: 300px;
 }
 
+.eb-jumbotron img{
+  width: 200px;
+}
+
+
 .eb-wrp-60{
   width: 60%;
   margin: 0 auto;
@@ -27,7 +63,7 @@
 
 
 img{
-  width: 350px;
+  width: 370px;
   border-radius: 10px;
   border-bottom: 15px;
 }
@@ -35,6 +71,13 @@ img{
 .row.eb-navbar{
   background-color: rgb(44, 62, 80);
   color: white;
+}
+
+
+.btn-success {
+  color: white;
+  background-color: rgb(26, 188, 156);
+  border-color: white;
 }
 
 footer{
@@ -52,4 +95,13 @@ footer{
 
 .eb-pd-tp{
   line-height: 30px;
+}
+
+h1,
+h6{
+  text-transform: uppercase;
+}
+
+.color-ch{
+  color: aquamarine;
 }

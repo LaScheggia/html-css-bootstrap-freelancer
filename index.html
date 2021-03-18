@@ -14,13 +14,29 @@
     <div class="eb-header-top">
       <div class="container"> <!-- qua la navbar -->
         <div class="row"> <!-- singola row  -->
-          <div class="col-xs-6">Piango</div>
+          <div class="col-xs-6">
+            <p class="namelogo">
+              start bootstrap
+            </p>
+          </div>
           <div class="col-xs-6 text-right"> 
             <nav class="hidden-xs">
-              Menù lungo a dx
+              <ul>
+                <li>
+                  <a href="#">portfolio</a>
+                </li>
+                <li>
+                  <a href="#">about</a>
+                </li>
+                <li>
+                  <a href="#">contact</a>
+                </li>
+              </ul>
             </nav>
             <div class="visible-xs">
-              btn
+              <button type="button" class="btn btn-default" aria-label="Left Align">
+                <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+              </button>
             </div> 
           </div>
         </div>
@@ -28,48 +44,39 @@
     </div>
     <div class="eb-header-bottom eb-bg-green eb-pad-80"> <!-- jumbotron -->
       <div class="eb-jumbotron">
-        <div class="container-fluid debug eb-jumbotron"> <!-- qua la start img -->
+        <div class="container eb-jumbotron"> <!-- qua la start img -->
           <div class="row text-center"> <!-- row padreterno -->
             <div class="col-xs-12">
               <img src="assets/img/avatar.svg" alt="tizio morto dentro come noi">
               <div class="row"> <!-- titolo -->
                 <div class="col-xs-12"> 
-                  <h1>start to die</h1>
-                </div>
-              </div>
-              <div class="row"> <!-- riga che sarà un incubo -->
-                <div class="col-xs-12">
-                  riga che mi farà venire gli incubi
-                </div>
-              </div>
-              <div class="row"> <!-- descrizione -->
-                <div class="col-xs-12">
-                  <h6>graphic artist etc</h6>
+                  <h1>Start bootstrap</h1>
+                  <p>
+                    riga satanica
+                  </p>
+                  <p class="text-uppercase">
+                    graphic artist - web deisgner - illustator
+                  </p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-
       </div>
     </div>
-
-
-    
   </header>
 
   <main> <!-- portfolio, about, form -->
     <div class="container debug text-center"> <!-- qua la parte portfolio -->
       <div class="row">
         <div class="col-xs-12">
-          <h2>
+          <h1>
             Portfolio
-          </h2>
+          </h1>
           <p>
             riga satanica
           </p>
         </div>
-  
       </div>
 
       <div class="row eb-mb">
@@ -95,7 +102,6 @@
       </div>
     </div>
 
-
     <section id="about" class="eb-pad-80 eb-bg-green">
       <div class="container"> <!-- la parte about -->
         <div class="row text-center"> <!-- titolo -->
@@ -109,31 +115,27 @@
           </div>
         </div>
 
-        <div class="eb-wrp-69">
+        <div class="eb-wrp-60">
           <div class="container-fluid">
             <div class="row">
               <div class="col-xs-12 col-sm-6">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis cupiditate error, nemo delectus pariatur similique aut earum expedita mollitia consequatur?
+                  Freelancer is a free bootstrap theme created by Start Bottstrap. The download includes the complete source files includinh HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy cistomization.
                 </p>
               </div>
               <div class="col-xs-12 col-sm-6">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis cupiditate error, nemo delectus pariatur similique aut earum expedita mollitia consequatur?
+                  Wheter you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!
                 </p>
               </div>
               <div class="row text-center eb-but"> <!-- bottone -->
                 <div class="col-xs-12 col-sm-2 col-sm-offset-5">
-                  <button type="button" class="btn btn-default">Default</button>
+                  <a href="#" class="btn btn-primary btn-success"><span class="glyphicon glyphicon-download-alt"></span>Download</a>
                 </div>
+              </div>
+            </div>
           </div>
         </div>
-
-
-
-
-        </div>
-      </div>
     </section>
 
     <section id="contact" class="eb-pad-80">
@@ -148,7 +150,6 @@
             </p>
           </div>
         </div>
-
         <div class="row"> <!-- form -->
           <div class="col-xs-12"> 
             <form>
@@ -165,37 +166,42 @@
                 <input type="email" class="form-control" id="exampleInputPhone" placeholder="Phone">
               </div>
               <div class="form-group">
-                <label for="exampleInputMessage">Message</label>
-                <input type="password" class="form-control" id="exampleInputMessage" placeholder="Message">
+                <label for="comment">Message Me:</label>
+                <textarea class="form-control" rows="5" id="comment"></textarea>
               </div>
               <div class="eb-but">
-                <button type="button" class="btn btn-default">Default</button>
+                <button type="button" class="btn btn-default">Send</button>
               </div>
-              
             </form> 
           </div>
         </div>
-
+      </div>
     </section>
   </main>
 
   <footer> <!-- socials, info & copyrights -->
     <div class="eb-fot-top eb-pad-80"> <!-- socials, info etc -->
       <div class="container">
-        <div class="row eb-footer"> <!-- parte con socials e quant'altro -->
+        <div class="row eb-footer text-center"> <!-- parte con socials e quant'altro -->
           <div class="col-md-4">
+            <h6>Location</h6>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis cupiditate error, nemo delectus pariatur similique aut earum expedita mollitia consequatur?
+              2215 John Daniel Drive Clark, MO <br>
+              54243
             </p>
           </div>
+
           <div class="col-md-4">
+            <h6>around the web</h6>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis cupiditate error, nemo delectus pariatur similique aut earum expedita mollitia consequatur?
+              
             </p>
           </div>
+
           <div class="col-md-4">
+            <h6>about freelancer</h6>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis cupiditate error, nemo delectus pariatur similique aut earum expedita mollitia consequatur?
+              Freelance is a free to use, open source bootstrap theme created by <span class="color-ch">Start Bootstrap</span>.
             </p>
           </div>
         </div>
@@ -205,7 +211,9 @@
     <div class="eb-fot-bot"> <!-- copyrights -->
       <div class="row eb-footer eb-pd-tp">
         <div class="col-xs-12 text-center">
-          copyrights
+          <p>
+            Copyrights <span class="glyphicon glyphicon-copyright-mark" aria-hidden="true"></span> Your website 2019
+          </p>
         </div>
       </div>
     </div>
