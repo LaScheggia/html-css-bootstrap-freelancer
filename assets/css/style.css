@@ -56,11 +56,15 @@ h6{
 }
 
 hr{
-  border-width: 3px;
+  height: 2px;
+}
+
+.satan hr{
+  background-color: white;
 }
 
 .satan.blue hr{
-  color: black;
+  background-color: black;
 }
 
 .satan > span{
@@ -134,17 +138,22 @@ footer{
 
 .eb-footer i{
   border-radius: 50%;
-  width: 25px;
-  height: 25px;
+  width: 30px;
+  height: 30px;
+  padding-top: 6px;
   text-align: center;
   color: white;
-  border: 1ps solid white;
+  border: 1px solid white;
 }
 
 .eb-footer ul li {
   color: white;
-  padding-right: 15px;
+  padding-left: 10px;
 }
+
+.eb-footer ul {
+  padding-left: 12px;
+} 
 
 .color-ch{
   color: aquamarine;
