@@ -39,6 +39,16 @@ ul li a:hover{
   text-transform: uppercase;
 }
 
+h1,
+h6{
+  text-transform: uppercase;
+}
+
+.satan{
+  display: inline-block;
+}
+
+
 .namelogo{
   text-transform: uppercase;
   font-weight: bold;
@@ -48,7 +58,6 @@ ul li a:hover{
   width: 80%;
   max-width: 800px;
   margin: 0 auto;
-  width: 300px;
 }
 
 .eb-jumbotron img{
@@ -93,14 +102,12 @@ footer{
   margin-bottom: 15px;
 }
 
-.eb-pd-tp{
-  line-height: 30px;
+
+.eb-fot-bot{
+  padding-top: 15px;
+  font-size: 12px;
 }
 
-h1,
-h6{
-  text-transform: uppercase;
-}
 
 .color-ch{
   color: aquamarine;
